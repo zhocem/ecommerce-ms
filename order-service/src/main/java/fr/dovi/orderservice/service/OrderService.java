@@ -7,32 +7,39 @@ import fr.dovi.orderservice.model.OrderLineItem;
 import fr.dovi.orderservice.repository.OrderRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 import java.util.UUID;
 
 @Service
 @RequiredArgsConstructor
+@Transactional
 public class OrderService {
 
-    private final OrderRepository orderRepository;
+	private final OrderRepository orderRepository;
 
-    public void placeOrder(OrderRequest orderRequest) {
-        Order order = new Order();
-        order.setOrderNumber(UUID.randomUUID().toString());
+	public void placeOrder(OrderRequest orderRequest) {
+		Order order = new Order();
+		order.setOrderNumber(UUID.randomUUID().toString());
 
-        List<OrderLineItem> orderLineItems = orderRequest.getOrderLineItemDTOS().stream().map(this::mapToEntity).toList();
-        order.setOrderLineItems(orderLineItems);
+		List<OrderLineItem> orderLineItems = orderRequest.getOrderLineItemDTOS().stream().map(this::mapToEntity).toList();
+		order.setOrderLineItems(orderLineItems);
 
-        orderRepository.save(order);
-    }
+		orderRepository.save(order);
+	}
 
-    private OrderLineItem mapToEntity(OrderLineItemDTO orderLineItemDTO) {
-        OrderLineItem orderLineItem = new OrderLineItem();
-        orderLineItem.setPrice(orderLineItemDTO.getPrice());
-        orderLineItem.setQuantity(orderLineItemDTO.getQuantity());
-        orderLineItem.setSkuCode(orderLineItemDTO.getSkuCode());
+	private OrderLineItem mapToEntity(OrderLineItemDTO orderLineItemDTO) {
+		OrderLineItem orderLineItem = new OrderLineItem();
+		orderLineItem.setPrice(orderLineItemDTO.getPrice());
+		orderLineItem.setQuantity(orderLineItemDTO.getQuantity());
+		orderLineItem.setSkuCode(orderLineItemDTO.getSkuCode());
 
-        return orderLineItem;
-    }
+		return orderLineItem;
+	}
+
+	public List<Order> getAllOrders() {
+		List<Order> orderList = orderRepository.findAll();
+		return orderList;
+	}
 }
