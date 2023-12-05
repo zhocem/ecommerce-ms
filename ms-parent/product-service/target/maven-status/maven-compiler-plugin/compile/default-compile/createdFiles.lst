@@ -1,0 +1,10 @@
+fr\dovi\productservice\ProductServiceApplication.class
+fr\dovi\productservice\dto\ProductRequest.class
+fr\dovi\productservice\dto\ProductResponse.class
+fr\dovi\productservice\model\Product.class
+fr\dovi\productservice\model\Product$ProductBuilder.class
+fr\dovi\productservice\repository\ProductRepository.class
+fr\dovi\productservice\service\ProductService.class
+fr\dovi\productservice\controller\ProductController.class
+fr\dovi\productservice\dto\ProductResponse$ProductResponseBuilder.class
+fr\dovi\productservice\dto\ProductRequest$ProductRequestBuilder.class

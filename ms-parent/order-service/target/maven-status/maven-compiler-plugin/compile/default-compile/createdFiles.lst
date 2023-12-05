@@ -1,0 +1,10 @@
+fr\dovi\orderservice\dto\OrderResponse$OrderResponseBuilder.class
+fr\dovi\orderservice\model\OrderLineItem.class
+fr\dovi\orderservice\model\Order.class
+fr\dovi\orderservice\dto\OrderResponse.class
+fr\dovi\orderservice\dto\OrderLineItemDTO.class
+fr\dovi\orderservice\service\OrderService.class
+fr\dovi\orderservice\controller\OrderController.class
+fr\dovi\orderservice\dto\OrderRequest.class
+fr\dovi\orderservice\OrderServiceApplication.class
+fr\dovi\orderservice\repository\OrderRepository.class

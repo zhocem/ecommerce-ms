@@ -1,0 +1,6 @@
+com\dovi\inventoryservice\repository\InventoryRepository.class
+com\dovi\inventoryservice\controller\InventoryController.class
+com\dovi\inventoryservice\model\Inventory.class
+com\dovi\inventoryservice\InventoryServiceApplication.class
+com\dovi\inventoryservice\dto\InventoryRequest.class
+com\dovi\inventoryservice\service\InventoryService.class
