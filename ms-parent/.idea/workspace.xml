@@ -5,21 +5,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="733e0d9d-cdee-4b43-8e20-cbb12a02195a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/discovery-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jpa-buddy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discovery-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/discovery-server/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discovery-server/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/discovery-server/target/classes/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/inventory-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory-service/src/main/java/com/dovi/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory-service/src/test/java/com/dovi/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/discovery-server/src/test/java/com/dovi/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory-service/src/main/java/com/dovi/inventoryservice/InventoryServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/dovi/inventoryservice/InventoryServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory-service/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory-service/target/classes/com/dovi/inventoryservice/InventoryServiceApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/target/classes/com/dovi/inventoryservice/InventoryServiceApplication.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/order-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/src/main/java/com/dovi/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/src/test/java/com/dovi/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/src/main/java/fr/dovi/orderservice/OrderServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/java/fr/dovi/orderservice/OrderServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/src/main/java/fr/dovi/orderservice/config/WebClientConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/java/fr/dovi/orderservice/config/WebClientConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/src/main/java/fr/dovi/orderservice/feign/InventoryClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/java/fr/dovi/orderservice/feign/InventoryClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/src/main/java/fr/dovi/orderservice/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/java/fr/dovi/orderservice/service/OrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/target/classes/fr/dovi/orderservice/OrderServiceApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/target/classes/fr/dovi/orderservice/OrderServiceApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/target/classes/fr/dovi/orderservice/config/WebClientConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/target/classes/fr/dovi/orderservice/config/WebClientConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/target/classes/fr/dovi/orderservice/feign/InventoryClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/target/classes/fr/dovi/orderservice/feign/InventoryClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/target/classes/fr/dovi/orderservice/service/OrderService.class" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/target/classes/fr/dovi/orderservice/service/OrderService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/product-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/src/main/java/com/dovi/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/src/test/java/com/dovi/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/src/main/java/fr/dovi/productservice/ProductServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/fr/dovi/productservice/ProductServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/target/classes/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/target/classes/fr/dovi/productservice/ProductServiceApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/target/classes/fr/dovi/productservice/ProductServiceApplication.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +57,13 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="OptimizeOnSaveOptions">
     <option name="myRunOnSave" value="true" />
@@ -66,15 +88,15 @@
     "WebServerToolWindowFactoryState": "false",
     "com.github.nowtilous.projectcolor.rgb": "-205",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "D:/sandbox/DEV/java/ecommerce-ms/ms-parent/inventory-service",
+    "last_opened_file_path": "D:/sandbox/DEV/java/ecommerce-ms/ms-parent/api-gateway/src/main/java",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "actions.on.save",
-    "spring.configuration.checksum": "052b0a0301d59f902d81020490e7b97d"
+    "settings.editor.selected.configurable": "reference.settings.project.maven.ignored.files",
+    "spring.configuration.checksum": "fc33270897cd432202fa52e215d688f0"
   }
 }]]></component>
   <component name="ReactorSettings">
@@ -82,9 +104,13 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\sandbox\DEV\java\ecommerce-ms\ms-parent\api-gateway\src\main\java" />
       <recent name="D:\sandbox\DEV\java\ecommerce-ms\ms-parent\inventory-service" />
       <recent name="D:\sandbox\DEV\java\ecommerce-ms\ms-parent\order-service" />
       <recent name="D:\sandbox\DEV\java\ecommerce-ms\ms-parent\product-service" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\sandbox\DEV\java\ecommerce-ms\ms-parent\api-gateway\src\main\java\com\dovi" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="fr.dovi.orderservice.dto" />
@@ -103,7 +129,14 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.InventoryServiceApplication">
+  <component name="RunManager" selected="Spring Boot.ApiGatewayApplication (1)">
+    <configuration name="ApiGatewayApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="api-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dovi.apigateway.ApiGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DiscoveryServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="discovery-server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.dovi.discoveryServer.DiscoveryServerApplication" />
@@ -117,7 +150,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InventoryServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="InventoryServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="ACTIVE_PROFILES" />
       <module name="inventory-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.dovi.inventoryservice.InventoryServiceApplication" />
       <extension name="coverage">
@@ -150,6 +184,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Spring Boot.ApiGatewayApplication (1)" />
+      <item itemvalue="Spring Boot.ProductServiceApplication" />
+      <item itemvalue="Spring Boot.DiscoveryServerApplication" />
+      <item itemvalue="Spring Boot.InventoryServiceApplication" />
+      <item itemvalue="Spring Boot.OrderServiceApplication" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.OrderServiceApplication" />
@@ -168,7 +209,11 @@
       <updated>1701696328597</updated>
       <workItem from="1701696330024" duration="11011000" />
       <workItem from="1701715177404" duration="5702000" />
-      <workItem from="1701770565318" duration="2816000" />
+      <workItem from="1701770565318" duration="2900000" />
+      <workItem from="1701855919386" duration="1979000" />
+      <workItem from="1701867642075" duration="8869000" />
+      <workItem from="1701880478916" duration="4150000" />
+      <workItem from="1702287730425" duration="1918000" />
     </task>
     <servers />
   </component>
@@ -191,22 +236,22 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/order-service/src/main/java/fr/dovi/orderservice/service/OrderService.java</url>
-          <line>49</line>
+          <line>52</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/order-service/src/main/java/fr/dovi/orderservice/service/OrderService.java</url>
-          <line>51</line>
+          <line>54</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/order-service/src/main/java/fr/dovi/orderservice/service/OrderService.java</url>
-          <line>41</line>
+          <line>44</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/order-service/src/main/java/fr/dovi/orderservice/service/OrderService.java</url>
-          <line>39</line>
+          <line>41</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">

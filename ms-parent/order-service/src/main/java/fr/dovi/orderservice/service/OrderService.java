@@ -8,6 +8,7 @@ import fr.dovi.orderservice.model.Order;
 import fr.dovi.orderservice.model.OrderLineItem;
 import fr.dovi.orderservice.repository.OrderRepository;
 import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -20,9 +21,10 @@ import java.util.UUID;
 @Service
 @RequiredArgsConstructor
 @Transactional
+@Slf4j
 public class OrderService {
     private final OrderRepository orderRepository;
-    private final WebClient webClient;
+    private final WebClient.Builder webClientBuilder;
 
     @Autowired
     private InventoryClient inventoryClient;
@@ -37,10 +39,11 @@ public class OrderService {
 
         List<String> skuCodes = order.getOrderLineItems().stream().map(OrderLineItem::getSkuCode).toList();
 
-        List<InventoryResponse> inventoryResponseList = inventoryClient.isInStock(skuCodes);
+//        List<InventoryResponse> inventoryResponseList = inventoryClient.isInStock(skuCodes);
+//        log.info("Is in stock with open feign: ", inventoryResponseList.size());
 
-        InventoryResponse[] inventoryResponses = webClient.get()
-                .uri("http://localhost:8082/api/inventory",
+        InventoryResponse[] inventoryResponses = webClientBuilder.build().get()
+                .uri("http://inventory-service/api/inventory",
                         uriBuilder -> uriBuilder.queryParam("skuCode", skuCodes).build())
                 .retrieve()
                 .bodyToMono(InventoryResponse[].class)
